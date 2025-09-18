@@ -1,6 +1,6 @@
 const express = require('express');
 const { createNote, getAllNotes, getNoteById, updateNote, deleteNote }=require("../controllers/notesController");
-const {authMiddleware}=require("../middlewares/authMiddleWare");
+const {authMiddleware}=require("../middlewares/authMiddleware");
 const router = express.Router();
 router.post('/notes',authMiddleware,createNote);
 router.get('/notes',authMiddleware,getAllNotes);

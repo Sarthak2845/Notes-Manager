@@ -1,0 +1,10 @@
+const express = require('express');
+const { createNote, getAllNotes, getNoteById, updateNote, deleteNote }=require("../controllers/notesController");
+const {authMiddleware}=require("../middlewares/authMiddleWare");
+const router = express.Router();
+router.post('/notes',authMiddleware,createNote);
+router.get('/notes',authMiddleware,getAllNotes);
+router.get('/notes/:id',authMiddleware,getNoteById);
+router.patch('/notes/:id', authMiddleware, updateNote);
+router.delete('/notes/:id', authMiddleware, deleteNote);
+module.exports = router;

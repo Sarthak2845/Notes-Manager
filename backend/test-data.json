@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Meeting Notes",
+    "description": "Discussed project timeline and deliverables for Q1"
+  },
+  {
+    "title": "Shopping List",
+    "description": "Milk, Bread, Eggs, Butter, Cheese"
+  },
+  {
+    "title": "Book Ideas",
+    "description": "1. Time management for developers\n2. Building scalable APIs\n3. Modern JavaScript patterns"
+  },
+  {
+    "title": "Travel Plans",
+    "description": "Visit Paris in summer - check flights, book hotel, plan itinerary"
+  },
+  {
+    "title": "Code Review",
+    "description": "Review authentication middleware and add error handling"
+  },
+  {
+    "title": "Daily Tasks",
+    "description": "Complete API documentation and update README"
+  },
+  {
+    "title": "Recipe Ideas",
+    "description": "Try new pasta recipe with garlic and herbs"
+  },
+  {
+    "title": "Workout Plan",
+    "description": "Monday - Cardio, Tuesday - Strength, Wednesday - Rest"
+  }
+]

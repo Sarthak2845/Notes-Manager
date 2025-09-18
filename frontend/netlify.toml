@@ -3,14 +3,19 @@
   command = "npm run build"
 
 [[headers]]
-  for = "*.js"
+  for = "/assets/*.js"
   [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
-  for = "*.jsx"
+  for = "*.js"
   [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "*.mjs"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
 
 [[redirects]]
   from = "/*"
